@@ -1,0 +1,4 @@
+move all SQL stuff over to LoginServer (ie account creation)
+
+
+re-do permissions to be specific server centric. IE not stored in the DB and instead locally in a .conf file
