@@ -116,7 +116,7 @@ public class SQLChecker {
 				return Integer.parseInt(resultSet.getString(1));
 			}
 		} catch (Exception e){
-			System.out.println(e.getLocalizedMessage());
+			//System.out.println(e.getLocalizedMessage());
 		}finally{
 			try {
 				connection.close();
